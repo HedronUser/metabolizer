@@ -1,10 +1,17 @@
 # metabolizer
-esp device nodal - communicates to Blynk and reads sensors and actuates pumps
+esp device node - communicates to Blynk and reads sensors and actuates pumps
 
 # Hardware
-LoLin ESP8266
+LoLin ESP8266 device
+Max 6675 Thermocouple module
+breadboard leads
+iOS or android mobile device
 
-#Our Goals
+# Software
+Blynk App (on mobile device)
+
+
+# Our Goals
 
 Goal 1: Read value from K sensor and display on Blink dashboard - 4 water temp or Tk sensors
 	- setup local blink server on raspberry pi 
@@ -41,4 +48,8 @@ amount of water condensed
 12:57pm finished serial input
 
 3:44pm working version of Blynk app that reports temperature
+
+10-xx-2018 Test out Blynk app with live Metabolizer data
+
+10-18-2018 First draft of documentation
 
